@@ -17,5 +17,6 @@ public class Demo3Test {
 	public void testAnnotation3() {
 		Reporter.log("morning");
 	}
+	
 
 }
