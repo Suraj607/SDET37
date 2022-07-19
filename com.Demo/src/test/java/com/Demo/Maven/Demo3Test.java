@@ -19,4 +19,12 @@ public class Demo3Test {
 	}
 	
 
+	
+
+	@Test
+	public void testAnnotation4() {
+		Reporter.log("morning");
+	}
+
+
 }
