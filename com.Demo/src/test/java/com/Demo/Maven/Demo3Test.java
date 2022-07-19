@@ -18,7 +18,7 @@ public class Demo3Test {
 		Reporter.log("morning");
 	}
 	@Test
-	public void testAnnotation3() {
+	public void testAnnotation4() {
 		Reporter.log("morning");
 	}
 
