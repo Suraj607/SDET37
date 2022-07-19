@@ -16,6 +16,10 @@ public class Demo1Test {
 	public void testCase3() {
 		Reporter.log("Lall");
 	}
+	@Test
+	public void testCase4() {
+		Reporter.log("Lall");
+	}
 	
 
 }
