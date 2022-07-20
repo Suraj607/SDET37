@@ -41,12 +41,18 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.6.1</version>
-    <scope>test</scope>
+    <version>6.9.8</version>
+   
 </dependency>
+
+
 
  
   </dependencies>
+  
+  <profiles>
+  <profile>
+  <id>suraj</id>
   <build>
  	<plugins>
  	<plugin>
@@ -62,4 +68,7 @@
  	
  	</plugins>
   </build>
+  </profile>
+  </profiles>
+  
 </project>
