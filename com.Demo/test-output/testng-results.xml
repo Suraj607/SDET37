@@ -32,26 +32,26 @@
       <![CDATA[morning]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-20T12:30:04 IST" name="Suite" finished-at="2022-07-20T12:30:04 IST" duration-ms="141">
+  <suite started-at="2022-07-20T15:04:28 IST" name="Suite" finished-at="2022-07-20T15:04:28 IST" duration-ms="111">
     <groups>
     </groups>
-    <test started-at="2022-07-20T12:30:04 IST" name="Test" finished-at="2022-07-20T12:30:04 IST" duration-ms="141">
+    <test started-at="2022-07-20T15:04:28 IST" name="Test" finished-at="2022-07-20T15:04:28 IST" duration-ms="111">
       <class name="com.Demo.Maven.Demo2Test">
-        <test-method signature="testScript1()[pri:0, instance:com.Demo.Maven.Demo2Test@66d3eec0]" started-at="2022-07-20T12:30:04 IST" name="testScript1" finished-at="2022-07-20T12:30:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="testScript1()[pri:0, instance:com.Demo.Maven.Demo2Test@1e04fa0a]" started-at="2022-07-20T15:04:28 IST" name="testScript1" finished-at="2022-07-20T15:04:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[hiii]]>
             </line>
           </reporter-output>
         </test-method> <!-- testScript1 -->
-        <test-method signature="testScript2()[pri:0, instance:com.Demo.Maven.Demo2Test@66d3eec0]" started-at="2022-07-20T12:30:04 IST" name="testScript2" finished-at="2022-07-20T12:30:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="testScript2()[pri:0, instance:com.Demo.Maven.Demo2Test@1e04fa0a]" started-at="2022-07-20T15:04:28 IST" name="testScript2" finished-at="2022-07-20T15:04:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Suraj]]>
             </line>
           </reporter-output>
         </test-method> <!-- testScript2 -->
-        <test-method signature="testScript3()[pri:0, instance:com.Demo.Maven.Demo2Test@66d3eec0]" started-at="2022-07-20T12:30:04 IST" name="testScript3" finished-at="2022-07-20T12:30:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="testScript3()[pri:0, instance:com.Demo.Maven.Demo2Test@1e04fa0a]" started-at="2022-07-20T15:04:28 IST" name="testScript3" finished-at="2022-07-20T15:04:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Satya]]>
@@ -60,21 +60,21 @@
         </test-method> <!-- testScript3 -->
       </class> <!-- com.Demo.Maven.Demo2Test -->
       <class name="com.Demo.Maven.Demo1Test">
-        <test-method signature="testCase1()[pri:0, instance:com.Demo.Maven.Demo1Test@56cdfb3b]" started-at="2022-07-20T12:30:04 IST" name="testCase1" finished-at="2022-07-20T12:30:04 IST" duration-ms="19" status="PASS">
+        <test-method signature="testCase1()[pri:0, instance:com.Demo.Maven.Demo1Test@2b91004a]" started-at="2022-07-20T15:04:28 IST" name="testCase1" finished-at="2022-07-20T15:04:28 IST" duration-ms="15" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Hello]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2()[pri:0, instance:com.Demo.Maven.Demo1Test@56cdfb3b]" started-at="2022-07-20T12:30:04 IST" name="testCase2" finished-at="2022-07-20T12:30:04 IST" duration-ms="1" status="PASS">
+        <test-method signature="testCase2()[pri:0, instance:com.Demo.Maven.Demo1Test@2b91004a]" started-at="2022-07-20T15:04:28 IST" name="testCase2" finished-at="2022-07-20T15:04:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Mohan]]>
             </line>
           </reporter-output>
         </test-method> <!-- testCase2 -->
-        <test-method signature="testCase3()[pri:0, instance:com.Demo.Maven.Demo1Test@56cdfb3b]" started-at="2022-07-20T12:30:04 IST" name="testCase3" finished-at="2022-07-20T12:30:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="testCase3()[pri:0, instance:com.Demo.Maven.Demo1Test@2b91004a]" started-at="2022-07-20T15:04:28 IST" name="testCase3" finished-at="2022-07-20T15:04:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Lall]]>
@@ -83,28 +83,28 @@
         </test-method> <!-- testCase3 -->
       </class> <!-- com.Demo.Maven.Demo1Test -->
       <class name="com.Demo.Maven.Demo3Test">
-        <test-method signature="testAnnotation()[pri:0, instance:com.Demo.Maven.Demo3Test@1e04fa0a]" started-at="2022-07-20T12:30:04 IST" name="testAnnotation" finished-at="2022-07-20T12:30:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="testAnnotation()[pri:0, instance:com.Demo.Maven.Demo3Test@1af2d44a]" started-at="2022-07-20T15:04:28 IST" name="testAnnotation" finished-at="2022-07-20T15:04:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Good]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAnnotation -->
-        <test-method signature="testAnnotation1()[pri:0, instance:com.Demo.Maven.Demo3Test@1e04fa0a]" started-at="2022-07-20T12:30:04 IST" name="testAnnotation1" finished-at="2022-07-20T12:30:04 IST" duration-ms="2" status="PASS">
+        <test-method signature="testAnnotation1()[pri:0, instance:com.Demo.Maven.Demo3Test@1af2d44a]" started-at="2022-07-20T15:04:28 IST" name="testAnnotation1" finished-at="2022-07-20T15:04:28 IST" duration-ms="2" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[morning]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAnnotation1 -->
-        <test-method signature="testAnnotation3()[pri:0, instance:com.Demo.Maven.Demo3Test@1e04fa0a]" started-at="2022-07-20T12:30:04 IST" name="testAnnotation3" finished-at="2022-07-20T12:30:04 IST" duration-ms="3" status="PASS">
+        <test-method signature="testAnnotation3()[pri:0, instance:com.Demo.Maven.Demo3Test@1af2d44a]" started-at="2022-07-20T15:04:28 IST" name="testAnnotation3" finished-at="2022-07-20T15:04:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[morning]]>
             </line>
           </reporter-output>
         </test-method> <!-- testAnnotation3 -->
-        <test-method signature="testAnnotation4()[pri:0, instance:com.Demo.Maven.Demo3Test@1e04fa0a]" started-at="2022-07-20T12:30:04 IST" name="testAnnotation4" finished-at="2022-07-20T12:30:04 IST" duration-ms="4" status="PASS">
+        <test-method signature="testAnnotation4()[pri:0, instance:com.Demo.Maven.Demo3Test@1af2d44a]" started-at="2022-07-20T15:04:28 IST" name="testAnnotation4" finished-at="2022-07-20T15:04:28 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[morning]]>
