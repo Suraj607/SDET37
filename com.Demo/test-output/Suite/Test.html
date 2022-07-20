@@ -1,0 +1,199 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 20 12:30:04 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (141 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Demo.Maven.Demo1Test.testCase1()'><b>testCase1</b><br>Test class: com.Demo.Maven.Demo1Test<br/>
+<a href="#Output-1128132589" onClick='toggleBox("Output-1128132589", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128132589" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128132589">
+Hello<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo1Test@56cdfb3b</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo3Test.testAnnotation1()'><b>testAnnotation1</b><br>Test class: com.Demo.Maven.Demo3Test<br/>
+<a href="#Output-1551945522" onClick='toggleBox("Output-1551945522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1551945522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1551945522">
+morning<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo3Test@1e04fa0a</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo2Test.testScript1()'><b>testScript1</b><br>Test class: com.Demo.Maven.Demo2Test<br/>
+<a href="#Output-1896305732" onClick='toggleBox("Output-1896305732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1896305732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896305732">
+hiii<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo2Test@66d3eec0</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo1Test.testCase2()'><b>testCase2</b><br>Test class: com.Demo.Maven.Demo1Test<br/>
+<a href="#Output-1292738535" onClick='toggleBox("Output-1292738535", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1292738535" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1292738535">
+Mohan<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo1Test@56cdfb3b</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo3Test.testAnnotation4()'><b>testAnnotation4</b><br>Test class: com.Demo.Maven.Demo3Test<br/>
+<a href="#Output-1862383967" onClick='toggleBox("Output-1862383967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1862383967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1862383967">
+morning<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo3Test@1e04fa0a</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo1Test.testCase3()'><b>testCase3</b><br>Test class: com.Demo.Maven.Demo1Test<br/>
+<a href="#Output-205721196" onClick='toggleBox("Output-205721196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-205721196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-205721196">
+Lall<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo1Test@56cdfb3b</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo2Test.testScript2()'><b>testScript2</b><br>Test class: com.Demo.Maven.Demo2Test<br/>
+<a href="#Output-1328718765" onClick='toggleBox("Output-1328718765", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1328718765" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1328718765">
+Suraj<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo2Test@66d3eec0</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo2Test.testScript3()'><b>testScript3</b><br>Test class: com.Demo.Maven.Demo2Test<br/>
+<a href="#Output-1802066694" onClick='toggleBox("Output-1802066694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1802066694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1802066694">
+Satya<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo2Test@66d3eec0</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo3Test.testAnnotation()'><b>testAnnotation</b><br>Test class: com.Demo.Maven.Demo3Test<br/>
+<a href="#Output-116734858" onClick='toggleBox("Output-116734858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-116734858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-116734858">
+Good<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo3Test@1e04fa0a</td></tr>
+<tr>
+<td title='com.Demo.Maven.Demo3Test.testAnnotation3()'><b>testAnnotation3</b><br>Test class: com.Demo.Maven.Demo3Test<br/>
+<a href="#Output-2106592975" onClick='toggleBox("Output-2106592975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2106592975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2106592975">
+morning<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.Demo.Maven.Demo3Test@1e04fa0a</td></tr>
+</table><p>
+</body>
+</html>
