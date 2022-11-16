@@ -41,12 +41,34 @@
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.6.1</version>
-    <scope>test</scope>
+    <version>6.9.8</version>
+   
 </dependency>
 
- 
-  </dependencies>
+</dependencies>
+<!-- https://mvnrepository.com/maven-surefire-plugin/org.testng/testng -->
+
+ <build>
+ 	<plugins>
+ 	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M7</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>     
+      </plugin> 
+ 	
+ 	</plugins>
+  </build>
+<!-- https://mvnrepository.com/maven-surefire-plugin-for smoke test/org.testng/testng -->
+
+  
+  <profiles>
+  <profile>
+  <id>smokeTest</id>
   <build>
  	<plugins>
  	<plugin>
@@ -62,4 +84,30 @@
  	
  	</plugins>
   </build>
+  </profile>
+  <!-- https://mvnrepository.com/maven-surefire-plugin-for regration test/org.testng/testng -->
+  <profile>
+  <id>regrationTest</id>
+  <build>
+ 	<plugins>
+ 	<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M7</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>     
+      </plugin> 
+ 	
+ 	</plugins>
+  </build>
+  </profile>
+  
+  
+  </profiles>
+  
+  
+  
 </project>
